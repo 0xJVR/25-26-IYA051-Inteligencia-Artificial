@@ -1,0 +1,66 @@
+{
+  "camera_index": 10,
+  "card": {
+    "aspect_ratio": 1.52,
+    "canonical_width": 400
+  },
+  "segmentation": {
+    "green_hsv_low": [
+      35,
+      40,
+      40
+    ],
+    "green_hsv_high": [
+      85,
+      255,
+      255
+    ],
+    "white_v_min": 200,
+    "morph_kernel": 5,
+    "open_iters": 2,
+    "close_iters": 2
+  },
+  "proposals": {
+    "min_contour_area": 2000,
+    "min_w": 40,
+    "min_h": 60,
+    "card_ar_range": [
+      1.15,
+      1.65
+    ],
+    "watershed_distance_rel": 0.35
+  },
+  "roi": {
+    "tl": [
+      0.02,
+      0.05,
+      0.16,
+      0.26
+    ],
+    "br": [
+      0.8,
+      0.72,
+      0.2,
+      0.28
+    ],
+    "rank_split": 0.55,
+    "expand_px": 0
+  },
+  "matching": {
+    "rank_ncc_min": 0.6,
+    "suit_ncc_min": 0.7,
+    "orb_min": 0.1,
+    "nms_iou": 0.5
+  },
+  "performance": {
+    "parallel_quads": true,
+    "workers": 8
+  },
+  "overlay": {
+    "show": true,
+    "font_path": "/usr/share/fonts/truetype/noto/NotoEmoji-Regular.ttf",
+    "font_size": 36,
+    "padding": 10,
+    "bg_alpha": 0.65
+  }
+}
