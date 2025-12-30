@@ -1,12 +1,3 @@
-# Reto 30 - Chateamos con LLM`s
+# Reto 30 - Reto Fin de Curso
 
-Tema: LLM: una gran herramienta
-
-Descripción: Introducción a los modelos de lenguaje de gran tamaño (LLM): capacidades, limitaciones y casos de uso. Objetivo: experimentar con prompts y evaluar respuestas.
-
-Actividades sugeridas:
-- Práctica de prompt engineering.
-- Evaluar sesgos y errores típicos.
-- Ver los límites de LLM
-- Proponer un caso de uso educativo o de apoyo.
-- Montar un LLM básico.
+Resolver el examen parcial de otro año que hay en materiales de clase de la asignatura
